@@ -18,7 +18,11 @@ namespace ClassProjectDeliverableTwo
             {
                 int grade = Int32.Parse(input); // Parse the input to a string.
 
-                if (grade >= 98) // Test if the grade is an A+.
+                if (grade > 100)
+                {
+                    Console.WriteLine("You must enter a number between 1 and 100!");
+                }
+                else if (grade >= 98 && grade <= 100) // Test if the grade is an A+.
                 {
                     Console.WriteLine("A+");
                 }
