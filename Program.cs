@@ -90,7 +90,7 @@ namespace ClassProjectDeliverableTwo
             }
             catch // Execute if the string cannot be parsed in an integer.
             {
-                Console.WriteLine("You must enter an integer for your grade!");
+                Console.WriteLine("You must enter a positive integer for your grade!");
             }
         }
     }
