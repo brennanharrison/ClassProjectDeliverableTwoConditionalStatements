@@ -20,7 +20,7 @@ namespace ClassProjectDeliverableTwo
 
                 if (grade > 100)
                 {
-                    Console.WriteLine("You must enter a number between 1 and 100!");
+                    Console.WriteLine("You must enter a number between 0 and 100!");
                 }
                 else if (grade >= 98 && grade <= 100) // Test if the grade is an A+.
                 {
